@@ -65,3 +65,6 @@ Tasks are stored in `tasks.json` like this:
 - Uses Go’s `encoding/json` for persistence  
 - Auto-creates `tasks.json` if missing  
 - Extendable with Cobra for more commands  
+
+📖 This project is inspired by the [Task Tracker project on roadmap.sh](https://roadmap.sh/projects/task-tracker).
+

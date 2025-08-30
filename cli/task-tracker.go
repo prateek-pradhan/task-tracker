@@ -170,7 +170,7 @@ func getTask(id string) (result string) {
 	}
 
 	writeJson(tasks)
-	return fmt.Sprintf("Task with id %d: %s", taskId, tasks.Tasks[int(taskId)])
+	return fmt.Sprintf("Task with id %d: %s -> %s", taskId, tasks.Tasks[int(taskId)].Description, tasks.Tasks[int(taskId)].Status)
 }
 
 func list(status string) {
